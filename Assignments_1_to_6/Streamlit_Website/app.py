@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page Configuration
-st.set_page_config(page_title="My Awesome Website", page_icon="🌟", layout="wide")
+st.set_page_config(page_title="My First Streamlit Website", page_icon="🌟", layout="wide")
 
 # Hide default Streamlit styling and spacing
 st.markdown("""
@@ -50,7 +50,7 @@ page = st.sidebar.radio("Go to", ["Home", "About", "Contact"])
 # Home Page
 if page == "Home":
     st.markdown("<div class='main'>", unsafe_allow_html=True)
-    st.markdown("<h1 class='big-title'>Welcome to My Awesome Website!</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='big-title'>Welcome to My First Streamlit Website!</h1>", unsafe_allow_html=True)
     st.markdown("<p class='subtitle'>Where creativity meets technology.</p>", unsafe_allow_html=True)
     st.image("https://picsum.photos/1200/400", use_container_width=True, caption="A Glimpse of Creativity")
     st.write("""

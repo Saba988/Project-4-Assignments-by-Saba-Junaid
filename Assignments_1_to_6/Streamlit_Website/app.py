@@ -89,4 +89,4 @@ elif page == "Contact":
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
-st.markdown("<div class='footer'>Made by ❤️ Ayesha Farooq</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Made by ❤️ Saba Junaid</div>", unsafe_allow_html=True)
